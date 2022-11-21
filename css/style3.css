@@ -1,0 +1,123 @@
+body{
+    background: linear-gradient(to right, black, rgb(16, 16, 66),  rgb(85, 3, 85));
+}
+.dp-menu ul {
+    
+    list-style-type: none;
+    padding: 0 ;
+   
+   
+}
+
+.dp-menu ul {
+    background-color: rgba(34, 41, 37, 0);;
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a {
+    font-size: 20px;
+    color: rgba(231, 241, 236, 0.722);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .4s;
+}
+
+.dp-menu ul li a:hover {
+    background-color:rgb(170, 37, 203);;
+}
+
+/*sub menu*/
+.dp-menu ul ul {
+  
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+}
+
+.dp-menu ul ul {
+    width: 150px
+}
+
+.dp-menu ul ul li a {
+    
+    display: block;
+}
+#nome{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 420px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.login{
+    position: relative;
+    left: 549px;
+    margin: 2px;
+}
+#destaque{
+    margin-top: 90px;
+    border-radius: 40px;
+    height: 300px;
+    width: 900px;
+}
+#search{
+    border-radius: 40px;
+    background-color: rgba(45, 39, 45, 0.196);
+    position: relative;
+    bottom: 48px;
+    left: 70px;
+    color: white;
+}
+.filme{
+    background-color: rgba(0, 0, 0, 0.204);
+    width: 900px;
+    height: 260px;
+    color:white;
+}
+.filme p{
+        position: relative;
+        left: 150px;
+        top: 20px;
+        
+}
+ .filme img{
+     position: relative;
+     bottom: 100px;
+     height: 210px;
+     text-align: left;
+
+ }  
+ .sinopse{
+    background-color: rgba(0, 0, 0, 0.204);
+    height: 600px;
+    width: 900px;
+ } 
+ .anime{
+     display: flex;
+     flex-direction: column;
+    height: 100px;
+    width: 200px;
+    margin-top: 10px;
+}
+#temporada{
+    background-color: rgba(54, 17, 88, 0.352);
+    color: white;
+    width: 900px;
+    text-align: center;
+}
+.sinopse h5{
+color: white;
+position: relative;
+left: 220px;
+bottom: 100px;
+}

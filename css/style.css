@@ -1,0 +1,217 @@
+body{
+    background: linear-gradient(to right, black, rgb(16, 16, 66),  rgb(85, 3, 85));
+}
+.dp-menu ul {
+    
+    list-style-type: none;
+    padding: 0 ;
+   
+   
+}
+
+.dp-menu ul {
+    background-color: rgba(34, 41, 37, 0);;
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a {
+    font-size: 20px;
+    color: rgba(231, 241, 236, 0.722);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    border-radius: rgb(37, 109, 203);;
+    transition: background .4s;
+}
+
+.dp-menu ul li a:hover {
+    background-color:rgb(37, 109, 203);;
+    border-radius: 40px;
+}
+.dp-menu ul ul {
+  
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+}
+
+.dp-menu ul ul {
+    width: 150px
+}
+
+.dp-menu ul ul li a {
+    
+    display: block;
+}
+#nome{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 430px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.login{
+    position: relative;
+    left: 549px;
+    margin: 2px;
+}
+#destaque{
+    margin-top: 90px;
+    border-radius: 40px;
+    height: 300px;
+    width: 900px;
+}
+#search{
+    border-radius: 40px;
+    background-color: rgba(45, 39, 45, 0.196);
+    position: relative;
+    bottom: 48px;
+    left: 70px;
+    color: white;
+}
+.abc{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    width: 700px;
+    height: 200px;
+    margin-top: 30px;
+}
+.tema{
+    position: relative;
+   padding: 50px;
+   bottom: 19px;
+  
+}
+.tema h3{
+    color: white;
+    position: relative;
+    top: 20px;
+}
+.tema span{
+    color: white;
+}
+.tema2{
+    position: relative;
+    padding: 50px;
+    bottom: 10px;
+}
+.tema2 h3{
+            color: white;
+            position: relative;
+            bottom: 20px;
+}
+.abcd{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    width: 700px;
+    height: 200px;
+    margin-top: 1px;
+    
+    
+   
+}
+.abc img{
+    margin-right: 5px;
+}.abcd img{
+    margin-right: 5px;
+}
+.topsemana{
+    position: relative;
+    height: 620px;
+    width: 300px;
+    background-color: rgba(32, 36, 36, 0.316);
+    left: 800px;
+    bottom: 710px;
+}
+#popularesanimes{
+    position: relative;
+    color: rgb(238, 233, 233);
+    left: 850px;
+    bottom: 680px;
+    font-size: 20px;
+}
+.top img{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    height: 100px;
+}
+.nota{
+    position: relative;
+    left: 80px;
+    bottom: 90px;
+}
+.ano{
+    position: relative;
+    bottom: 100px;
+    left: 80px;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+}
+.Lista{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+   
+   
+    
+   
+   
+  
+}
+.Lista{
+    position: relative;
+    left: 90px;
+    bottom: 590px;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    width: 1000px;
+    height: 200px;
+    margin-bottom: 50px;
+    
+   
+}
+.Lista img{
+    display: flex;
+    justify-content: center;
+    height: 180px;
+    width: 140px;
+    margin-right: 4px;
+   
+}
+#anime{
+    color: rgb(255, 255, 255);
+    position: relative;
+   bottom: 589px;
+    left: 90px;
+    font-size: 20px;
+    
+    
+}
+#serie{
+    color: rgb(255, 255, 255);
+    position: relative;
+   bottom: 589px;
+    left: 90px;
+    font-size: 20px;
+}
+#filme{
+    color: rgb(255, 255, 255);
+    position: relative;
+   bottom: 589px;
+    left: 90px;
+    font-size: 20px;
+}
